@@ -1,5 +1,7 @@
 require 'test_helper'
 
+# TODO https://www.railstutorial.org/book/updating_and_deleting_users#sec-exercises_user_index
+
 class SiteLayoutTest < ActionDispatch::IntegrationTest
   test "layout links" do
     get root_path
